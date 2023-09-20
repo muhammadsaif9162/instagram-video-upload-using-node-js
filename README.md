@@ -38,7 +38,7 @@ you need to setup your facebook developer account for this first to get access t
 A BASIC FRONTEND CODE TO CHECK THE WORKING IF YOU WANT TO TEST IT:
 
 HTML:
-<!DOCTYPE html>
+"<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,7 +46,7 @@ HTML:
     <title>MP4 Video Upload</title>
 </head>
 <body>
-    <h1>Upload MP4 Video</h1>
+    <p>Upload MP4 Video</p>
     <form id="uploadForm" enctype="multipart/form-data">
         <input type="file" name="video" accept="video/mp4">
         <button type="submit">Upload</button>
@@ -56,7 +56,7 @@ HTML:
 
     <script src="profilepic.js"></script>
 </body>
-</html>
+</html>"
 
 
 JAVASCRIPT:
