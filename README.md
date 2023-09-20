@@ -38,25 +38,11 @@ you need to setup your facebook developer account for this first to get access t
 A BASIC FRONTEND CODE TO CHECK THE WORKING IF YOU WANT TO TEST IT:
 
 HTML:
-"<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MP4 Video Upload</title>
-</head>
-<body>
-    <p>Upload MP4 Video</p>
-    <form id="uploadForm" enctype="multipart/form-data">
-        <input type="file" name="video" accept="video/mp4">
-        <button type="submit">Upload</button>
-    </form>
 
-    <div id="message"></div>
-
-    <script src="profilepic.js"></script>
-</body>
-</html>"
+<form id="uploadForm" enctype="multipart/form-data">
+  <input type="file" name="video" accept="video/mp4">
+  <button type="submit">Upload</button>
+</form>
 
 
 JAVASCRIPT:
