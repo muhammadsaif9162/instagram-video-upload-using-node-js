@@ -36,14 +36,10 @@ of the video to insta upload api
 you need to setup your facebook developer account for this first to get access token, your insta page id.
 
 A BASIC FRONTEND CODE TO CHECK THE WORKING IF YOU WANT TO TEST IT:
+here is a test code
 
 HTML:
-
-<form id="uploadForm" enctype="multipart/form-data">
-  <input type="file" name="video" accept="video/mp4">
-  <button type="submit">Upload</button>
-</form>
-
+you can create a form with enctype="multipart/form-data" and type="file" name="video" accept="video/mp4" with button to upload
 
 JAVASCRIPT:
 
