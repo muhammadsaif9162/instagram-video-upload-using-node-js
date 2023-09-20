@@ -1,8 +1,8 @@
 const axios = require('axios');
 
-const user_id = '17841461607725096';
-const accessToken = 'EAAMVmC5sl6QBOxfhqvyg9yzRPUgqFyxVAWQvchGlmhvZBBY1ZC4JiQUJzwaMoby2OA7TcaYB3WTJsZBDbuBtwddQoNZC7ZBC47SyJIHn1QGG0VuY1jNkacj1JpETnndevMjgEugXCZCoYSRjIKdbTkvuBZByHCz4dNY8Vex4xEaUwa0ik0qJOKUYFR3ToLFHIhD';
-const video_url = 'https://glokalstv.com/private-glokals-highlights/1695168169656-cat.mp4';
+const user_id = ''; // your insta business page id you get from developer acc
+const accessToken = ''; //your user access token you get from developer acc with required permissions
+const video_url = ''; //video url you want to post
 
 const createVideoContainer = async () => {
     try {
